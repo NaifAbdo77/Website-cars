@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<section class="products" id="products">
+            <div class="products-title">
+            <h2>Hyundai</h2>
+            <p class="products-p">شركة هيونداي موتور  فرع من مجموعة سيارات هيونداي/كيا، وهي ثاني أكبر شركة في كوريا الجنوبية بعد سامسونج، ورابع أكبر مصنعي السيارات في العالم من حيث عدد الوحدات المباعة سنويًا، وواحدة من أكبر شركات آسيا تتضمن تويوتا، هوندا، نيسان موتورز.</p>
+        </div>
+    
+
+
+
+<div class="search-bar">
+  <input id="searchInput" type="text" placeholder="ابحث عن سيارة...">
+  <button id="clearBtn">مسح</button>
+</div>
+
+
+
+
+    <div class="product-container">
+
+        <div class="product-card"
+         data-model="Santafi 2018">   
+        <img src="img/Hyundai/Santafi 2018.jpg">
+        <div class="card-body">
+         <h4 class="card-title">Santafi 2018</h4> 
+         <p class="card-content">سيارة دفع رباعي قوية وفاخرة، مثالية للطرق الوعرة والسفر الطويل</p> 
+         </div>
+        </div>
+ 
+
+        <div class="product-card"
+            data-model="Sonata 2017">
+         <img src="img/Hyundai/Sonata 2018.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Sonata 2017</h4> 
+         <p class="card-content">سيارة SUV مدمجة وموثوقة، مناسبة للقيادة اليومية والحياة في المدينة</p> 
+         </div>
+        </div>
+
+
+        <div class="product-card"
+            data-model="Tucson 2019">
+         <img src="img/Hyundai/Hyundai-Tucson-2019.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Tucson 2019</h4> 
+         <p class="card-content">سيارة سيدان أنيقة واقتصادية، مثالية للعائلة والاستخدام اليومي في المدينة</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+            data-model="Azera">
+         <img src="img/Hyundai/Azera-2022.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Azera-2022</h4> 
+         <p class="card-content">بيك أب قوي ومتينة، صممت للعمل الشاق والمغامرات</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+            data-model="accent">
+         <img src="img/Hyundai/2018-hyundai-accent-limited-silver-front-quarter-left.jpg">
+         <div class="card-body">
+         <h4 class="card-title">accent 2019</h4> 
+         <p class="card-content">سيارة دفع رباعي فاخرة وواسعة، مثالية للرحلات العائلية والطرق الوعرة</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+            data-model="Elantra">
+         <img src="img/Hyundai/2020-Hyundai-Elantra.avif">
+         <div class="card-body">
+         <h4 class="card-title">Elantra 2020</h4> 
+         <p class="card-content">سيارة SUV أيقونية للطرق الوعرة، قوية وممتعة لعشاق المغامرات</p> 
+         </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+    <p>جميع الحقوق محفووظه</p>
+</footer>
+
+
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalName"></h2>
+    <img id="modalFront" width="200">
+    <img id="modalBack" width="200">
+    <p id="modalSpecs"></p>
+    <p id="modalPrice"></p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

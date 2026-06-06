@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<section class="products" id="products">
+            <div class="products-title">
+            <h2>Kia</h2>
+            <p class="products-p">كيا موتورز هي ثاني أكبر مصنّع سيارات في كوريا الجنوبية. وهي تابعة لمجموعة هيونداي كيا للمركبات ومقرها في سيول، كوريا الجنوبية. والرئيس التنفيذي للشركة هو تشونغ ايوي سون.</p>
+        </div>
+    
+
+
+        <div class="search-bar">
+  <input id="searchInput" type="text" placeholder="ابحث عن سيارة...">
+  <button id="clearBtn">مسح</button>
+</div>
+
+
+
+    <div class="product-container">
+
+        <div class="product-card">
+         data-model="ML">
+        <img src="img/Kia/2020_Kia_Soul_First_Edition_EV_Front.jpg">
+        <div class="card-body">
+         <h4 class="card-title">Soul 2020</h4> 
+         <p class="card-content">سيارة دفع رباعي قوية وفاخرة، مثالية للطرق الوعرة والسفر الطويل</p> 
+         </div>
+        </div>
+ 
+
+        <div class="product-card"
+             data-model="Sorento">
+         <img src="img/Kia/2023_Kia_Sorento_MQ4_1.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Sorento 2023</h4> 
+         <p class="card-content">سيارة SUV مدمجة وموثوقة، مناسبة للقيادة اليومية والحياة في المدينة</p> 
+         </div>
+        </div>
+
+
+        <div class="product-card"
+             data-model="Rio">
+         <img src="img/Kia/Kia Rio 2011.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Rio 2011</h4> 
+         <p class="card-content">سيارة سيدان أنيقة واقتصادية، مثالية للعائلة والاستخدام اليومي في المدينة</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+             data-model="picanto">
+         <img src="img/Kia/kia-picanto-gt-line-s-720x405px.jpg">
+         <div class="card-body">
+         <h4 class="card-title">picanto 2017</h4> 
+         <p class="card-content">بيك أب قوي ومتينة، صممت للعمل الشاق والمغامرات</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+             data-model="Sportage">
+         <img src="img/Kia/Sportage 2019.avif">
+         <div class="card-body">
+         <h4 class="card-title">Sportage 2019</h4> 
+         <p class="card-content">سيارة دفع رباعي فاخرة وواسعة، مثالية للرحلات العائلية والطرق الوعرة</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+             data-model="Soul">
+         <img src="img/Kia/كيا-Soul-1.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Soul 2015</h4> 
+         <p class="card-content">سيارة SUV أيقونية للطرق الوعرة، قوية وممتعة لعشاق المغامرات</p> 
+         </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+    <p>جميع الحقوق محفووظه</p>
+</footer>
+
+
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalName"></h2>
+    <img id="modalFront" width="200">
+    <img id="modalBack" width="200">
+    <p id="modalSpecs"></p>
+    <p id="modalPrice"></p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

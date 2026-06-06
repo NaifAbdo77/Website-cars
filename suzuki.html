@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<section class="products" id="products">
+            <div class="products-title">
+            <h2>suzuki</h2>
+            <p class="products-p">شركة سوزوكي للمحركات هي شركة يابانية متعددة الجنسيّات متخصصة في إنتاج السيَّارات الصغيرة، مجموعات كاملة من الدرَّاجات البخارية، مركبات تلائم التضاريس، محركات بحرية خارجية، والكراسي المتحركةَ ومجموعة متنوعة من محركات الاحتراق الداخليّ الصغيرة.</p>
+        </div>
+    
+
+<div class="search-bar">
+  <input id="searchInput" type="text" placeholder="ابحث عن سيارة...">
+  <button id="clearBtn">مسح</button>
+</div>
+
+
+
+    <div class="product-container">
+
+        <div class="product-card"
+        
+        data-name="baleno"
+            data-img-front="img/TOYOTA/كوريلا.jpeg"
+            data-img-back="img/TOYOTA/كوريلا.jpeg"
+            data-specs="kjbkj"
+            data-price="654">
+        <img src="img/suzuki/baleno-fl-2.avif">
+        <div class="card-body">
+         <h4 class="card-title">baleno 2020</h4> 
+         <p class="card-content">سيارة دفع رباعي قوية وفاخرة، مثالية للطرق الوعرة والسفر الطويل</p> 
+         <button class="open-modal">عرض التفاصيل</button>
+         </div>
+        </div>
+ 
+
+        <div class="product-card"
+            
+            data-name="Dzire"
+            data-img-front="img/TOYOTA/كوريلا.jpeg"
+            data-img-back="img/TOYOTA/كوريلا.jpeg"
+            data-specs="kjbkj"
+            data-price="654">
+         <img src="img/suzuki/Dzire 2015.jpeg">
+         <div class="card-body">
+         <h4 class="card-title">Dzire 2015</h4> 
+         <p class="card-content">سيارة SUV مدمجة وموثوقة، مناسبة للقيادة اليومية والحياة في المدينة</p> 
+         <button class="open-modal">عرض التفاصيل</button>
+         </div>
+        </div>
+
+
+        <div class="product-card"
+            
+            data-name="sizzling"
+            data-img-front="img/TOYOTA/كوريلا.jpeg"
+            data-img-back="img/TOYOTA/كوريلا.jpeg"
+            data-specs="kjbkj"
+            data-price="654">
+         <img src="img/suzuki/sizzling-red-metallic Jimny.png">
+         <div class="card-body">
+         <h4 class="card-title">sizzling 2019</h4> 
+         <p class="card-content">سيارة سيدان أنيقة واقتصادية، مثالية للعائلة والاستخدام اليومي في المدينة</p> 
+         <button class="open-modal">عرض التفاصيل</button>
+         </div>
+        </div>
+
+         <div class="product-card"
+            
+            data-name="VITARA"
+            data-img-front="img/TOYOTA/كوريلا.jpeg"
+            data-img-back="img/TOYOTA/كوريلا.jpeg"
+            data-specs="kjbkj"
+            data-price="654">
+         <img src="img/suzuki/Suzuki VITARA 2021.webp">
+         <div class="card-body">
+         <h4 class="card-title">VITARA 2021</h4> 
+         <p class="card-content">بيك أب قوي ومتينة، صممت للعمل الشاق والمغامرات</p> 
+         <button class="open-modal">عرض التفاصيل</button>
+         </div>
+        </div>
+
+         <div class="product-card"
+            
+             data-name="Swift"
+            data-img-front="img/TOYOTA/كوريلا.jpeg"
+            data-img-back="img/TOYOTA/كوريلا.jpeg"
+            data-specs="kjbkj"
+            data-price="654">
+         <img src="img/suzuki/Suzuki-Swift_Sport-2012-Front_Three-Quarter.a943ed25.jpg">
+         <div class="card-body">
+         <h4 class="card-title">Swift Sport 2012</h4> 
+         <p class="card-content">سيارة دفع رباعي فاخرة وواسعة، مثالية للرحلات العائلية والطرق الوعرة</p> 
+         <button class="open-modal">عرض التفاصيل</button>
+         </div>
+        </div>
+
+         <div class="product-card"
+            
+            data-name="swift"
+            data-img-front="img/TOYOTA/كوريلا.jpeg"
+            data-img-back="img/TOYOTA/كوريلا.jpeg"
+            data-specs="kjbkj"
+            data-price="654">
+         <img src="img/suzuki/swift 2012.jpg">
+         <div class="card-body">
+         <h4 class="card-title">swift 2012</h4> 
+         <p class="card-content">سيارة SUV أيقونية للطرق الوعرة، قوية وممتعة لعشاق المغامرات</p> 
+         <button class="open-modal">عرض التفاصيل</button>
+         </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+    <p>جميع الحقوق محفووظه</p>
+</footer>
+
+
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalName"></h2>
+    <img id="modalFront" width="200">
+    <img id="modalBack" width="200">
+    <p id="modalSpecs"></p>
+    <p id="modalPrice"></p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

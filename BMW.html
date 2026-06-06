@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<section class="products" id="products">
+            <div class="products-title">
+            <h2>BMW</h2>
+            <p class="products-p">هي شركة ألمانية متعددة الجنسيات تنتج السيارات والدراجات النارية. تأسست الشركة في عام 1916 كشركة مصنعة لمحركات الطائرات، والتي أنتجت من 1917 حتى 1918 ومرة أخرى من 1933 إلى 1945.</p>
+        </div>
+    
+
+
+<div class="search-bar">
+  <input id="searchInput" type="text" placeholder="ابحث عن سيارة...">
+  <button id="clearBtn">مسح</button>
+</div>
+
+
+
+    <div class="product-container">
+
+        <div class="product-card"
+        data-model="bmw m5">
+        <img src="img/BMW/2016_bmw_m5_2016_bmw_m5_480cea64-7c13-4617-8c75-b3c0313dfd77-5sgT9r-16197-16198-scaled.webp">
+        <div class="card-body">
+         <h4 class="card-title">bmw m5 2016</h4> 
+         <p class="card-content">سيارة دفع رباعي قوية وفاخرة، مثالية للطرق الوعرة والسفر الطويل</p> 
+         </div>
+        </div>
+ 
+
+        <div class="product-card"
+            data-model="bmw m3">
+         <img src="img/BMW/2013_bmw_m3_2013_bmw_m3_13b40cb9-4755-4082-9727-b17a8c5f220f-UeLhJe-scaled.webp">
+         <div class="card-body">
+         <h4 class="card-title">bmw m3 2013</h4> 
+         <p class="card-content">سيارة SUV مدمجة وموثوقة، مناسبة للقيادة اليومية والحياة في المدينة</p> 
+         </div>
+        </div>
+
+
+        <div class="product-card"
+            data-model="BMW X6">
+         <img src="img/BMW/2018_BMW_X6_xDrive30d_M_Sport_Automatic_3.0_Front.jpg">
+         <div class="card-body">
+         <h4 class="card-title">BMW X6</h4> 
+         <p class="card-content">سيارة سيدان أنيقة واقتصادية، مثالية للعائلة والاستخدام اليومي في المدينة</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+            data-model="BMW X7">
+         <img src="img/BMW/BMW_G07_1X7A1696 X7.jpg">
+         <div class="card-body">
+         <h4 class="card-title">BMW X7</h4> 
+         <p class="card-content">بيك أب قوي ومتينة، صممت للعمل الشاق والمغامرات</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+            data-model="BMW x6">
+         <img src="img/BMW/IMG_0694-scaled x6 2020.jpg">
+         <div class="card-body">
+         <h4 class="card-title">BMW x6</h4> 
+         <p class="card-content">سيارة دفع رباعي فاخرة وواسعة، مثالية للرحلات العائلية والطرق الوعرة</p> 
+         </div>
+        </div>
+
+         <div class="product-card"
+            data-model="BMW 2014">
+         <img src="img/BMW/M4 2014.jpg">
+         <div class="card-body">
+         <h4 class="card-title">BMW 2014</h4> 
+         <p class="card-content">سيارة SUV أيقونية للطرق الوعرة، قوية وممتعة لعشاق المغامرات</p> 
+         </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+    <p>جميع الحقوق محفووظه</p>
+</footer>
+
+
+
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalName"></h2>
+    <img id="modalFront" width="200">
+    <img id="modalBack" width="200">
+    <p id="modalSpecs"></p>
+    <p id="modalPrice"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

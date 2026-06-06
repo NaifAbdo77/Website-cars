@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    height: 1100px;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(rgb(228, 245, 245),rgba(246, 242, 234, 0.261));
+}
+.servicess{
+    
+     font-size: 40px;
+    text-align: center;
+    background: linear-gradient(rgb(220, 255, 255),rgba(248, 253, 253, 0.624));
+}
+.services{
+    height: 1100px;
+     font-size: 40px;
+    text-align: center;
+    background: linear-gradient(rgb(241, 252, 252),rgba(189, 181, 165, 0.436));
+}
+.navbar{
+    display: flex;
+    background:linear-gradient(rgb(0, 0, 0),rgba(159, 156, 156, 0.237));
+    padding:10px 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(251, 251, 251);
+    height: 80px;
+}
+.navbar .main-logo{
+    font-size: none;
+    display: flex;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-inline: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav-links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+   
+}
+.main-logo{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(234, 227, 227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0 ,0.3);
+}
+.hero{
+    position: relative;
+    text-align: center;
+    background-image:url(img/900.webp);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    background-position:center ;
+    
+}
+.hero-content{
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: -125px;
+    
+}
+.hero-content .hero-title{
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color:rgba(255, 255, 255, 0.892)
+}
+.hero-content .hero-subtitle{
+    margin-bottom: 90px;
+    font-size: 3em;
+    color:rgba(232, 232, 232, 0.892)
+}
+.hero-content a{
+    display: inline-block;
+    background-color: rgba(222, 17, 17, 0.827);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+.hero-content a:hover{
+    background-color: rgb(8, 2, 1);
+}
+.products{
+    background-color: rgb(255, 255, 255);
+    padding: 80px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.products-p{
+    display: inline-block;
+    margin-bottom: 50px;
+   
+}
+ .product-container{
+    display: grid;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    
+ }
+ .product-card img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     margin-bottom: 20px;
+ }
+ .product-card .card-body{
+    padding: 20px;
+ }
+ .card-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ .product-card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    min-height: 300px;
+    
+
+    
+ }
+ .card-content{
+    font-size: 25px;
+ }
+ .product-card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0,1);
+ }
+ .company-link {
+  color: #222;           /* اللون الذي تريد */
+  text-decoration: none;  /* إزالة الخط السفلي */
+  font-weight: bold;      /* إذا تريد الاسم غامق */
+  font-size: 30px;        /* حجم الخط */
+  transition: color 0.3s; /* تأثير عند المرور */
+}
+
+
+.search-bar {
+  
+   flex-wrap: wrap;
+    align-items: center;
+  margin:3rem 0;
+  
+  
+  
+}
+.search-bar input, .search-bar select, .search-bar button {
+  padding: .6rem .8rem;
+   border: 1px solid #ddd;
+    border-radius: .4rem;
+    font-size: 17px;
+    
+}
+.result-count { margin-inline-start: auto; font-size: .9rem; opacity: .8; }
+.car-card { transition: transform .2s ease, opacity .2s ease; }
+.car-card.hidden { display: none; }
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%;
+   height: 100%;
+  background: rgba(0,0,0,0.7);
+   
+  font-size: 25px;
+  
+}
+.modal-content {
+  background: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 20px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.4s ease;
+}
+.close {
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: red;
+  width: 40px;
+  border-radius: 7px;
+
+}
+.open-modal{
+    width: 150px;
+    height: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+ footer {
+    background-color: #111;
+   
+    color: white;
+
+    text-align: center;
+  
+    padding: 15px;
+   
+    margin-top: 20px;
+   
+}
+img{
+max-width: 100%;
+height: auto;
+
+}
+
